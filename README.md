@@ -1,8 +1,14 @@
 # Mobile
 
-Project mobile with react native
+###Mobile project built with react native
 
-Usar:
-npm start -> para comenzar server local y poder probar el funcionamiento de la app en un celular(android u Ios) IMPORTANTE: el celular tiene que estar en la misma red wifi para poder scanear el codigo QR y enlazarse
+##Introduction
+This project generates an .apk or .ipa, for android or Ios.
+It is going to ask you for permissions for enabled the Wifi-direct technology on your mobile and it's going to try tto find another user (the raspberry Pi board) near the area.
 
-    expo build:android -> user para generar el apk, se brindara un enlace al final del proceso donde se puede descargar el APK generado, tambien durante el proceso aparece un enlace donde se puede entrar y ver el estado del build y realese web que ocurre despues del build local
+####Some usefull commands:
+
+    npm start -> For starting the App
+     IMPORTANT: The mobile must be on the same network than the computer where you are executing because the QR code only works on local network
+
+    expo build:android -> generates the APK for android, it gives you a link for watching and monitoring the build process.
